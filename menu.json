@@ -1,0 +1,40 @@
+{
+    "headline": "Cineflix",
+    "menu": [{
+            "label": "Default Menu Item"
+        }, {
+            "type": "separator"
+        }, {
+            "icon": "home",
+            "label": "Menu Item With Icon"
+        }, {
+            "icon": "person",
+            "label": "Menu Item With Icon & Extension Label",
+            "extensionLabel": "123"
+        }, {
+            "icon": "star",
+            "label": "Menu Item With Icon & Extension Icon",
+            "extensionIcon": "music-note"
+        }, {
+            "type": "separator",
+            "label": "Separator With Label"
+        }, {            
+            "label": "Menu Item With Background",
+            "background": "http://msx.benzac.de/img/bg1.jpg"
+        }, {            
+            "label": "Menu Item With Data Link",
+            "data": "http://msx.benzac.de/info/data/content_placeholder.json"
+        }, {            
+            "label": "Menu Item With Data Object",
+            "data": {               
+                "pages": [{  
+                        "items": [{
+                                "layout": "0,0,12,6",
+                                "color": "msx-glass",
+                                "headline": "Content Placeholder",
+                                "text": "This is just a placeholder."
+                            }]
+                    }]
+            }
+        }]
+}
